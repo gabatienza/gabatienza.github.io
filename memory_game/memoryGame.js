@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded",function() {
     var gameinfo = document.querySelector("#gameinfo");
     var numPairs = document.querySelector("#numPairs");
     var elapsedTime = document.querySelector("#timer");
+    var attemptInfo = document.querySelector("#attempts");
+    var matchesInfo = document.querySelector("#matches");
     
     
     startButton.addEventListener("click", function() {
